@@ -1,1 +1,105 @@
+# Unity generated folders
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+[Rr]ecordings/
+[Aa]ssets/StreamingAssets/aa.meta
+[Aa]ssets/StreamingAssets/aa/*
+
+# Ignore Addressables and PackageCache
+[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/
+[Ll]ibrary/PackageCache/
+
+# Auto-generated IDE files
+.vscode/
+*.csproj
+*.sln
+*.userprefs
+*.pidb
+*.unityproj
+*.mdb
+*.pdb
+*.tmp
+*.cache
+*.log
+*.bak
+
+# Ignore platform-specific files
+*.dmg
+*.app
+*.apk
+*.aab
+*.exe
+*.dll
+*.so
+*.dylib
+*.ilk
+*.exp
+*.x86
+*.x86_64
+*.nib
+*.xcodeproj
+*.xcworkspace
+*.xcuserdata
+
+# Ignore builds and outputs
+[Bb]uild/
+[Bb]uilds/
+*.ipa
+*.manifest
+[Ww]eb[Gg][Ll]/
+
+# Crashlytics
+crashlytics-build.properties
+
+# Gradle cache
+.gradle/
+
+# Ignore Unity backups
+*.unity~
+*.prefab~
+*.mat~
+*.asset~
+
+# Ignore test and temp files
+*.test
+*.temp
+/test/
+
+# Ignore JetBrains Rider plugin files
+[Aa]ssets/Plugins/Editor/JetBrains*
+
+# Environment files
+*.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Large binary files
+*.psd
+*.tga
+*.fbx
+*.mp3
+*.wav
+*.ogg
+*.zip
+
+# Git Large File Storage (LFS) tracking for specific file types (optional)
+# Uncomment if using Git LFS
+# *.psd
+# *.tga
+# *.fbx
+# *.wav
+# *.ogg
+# *.zip
+
+# Prevent tracking unwanted files
+.DS_Store
+Thumbs.db
 
