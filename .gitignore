@@ -90,14 +90,17 @@ crashlytics-build.properties
 *.ogg
 *.zip
 
-# Git Large File Storage (LFS) tracking for specific file types (optional)
-# Uncomment if using Git LFS
-# *.psd
-# *.tga
-# *.fbx
-# *.wav
-# *.ogg
-# *.zip
+# Git Large File Storage (LFS) tracking for specific file types
+# Les fichiers volumineux comme les textures, les modèles 3D ou l'audio sont suivis par Git LFS.
+*.psd
+*.tga
+*.fbx
+*.wav
+*.ogg
+*.zip
+*.mp4
+*.mov
+*.avi
 
 # Prevent tracking unwanted files
 .DS_Store
