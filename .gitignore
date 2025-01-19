@@ -1,19 +1,1 @@
 
-UserSettings/
-MemoryCaptures/
-
-# OS-specific
-.DS_Store
-Thumbs.db
-
-# IDE-specific
-*.csproj
-*.unityproj
-*.sln
-*.suo
-*.tmp
-*.user
-*.userprefs
-*.pidb
-*.booproj
-*.svd
