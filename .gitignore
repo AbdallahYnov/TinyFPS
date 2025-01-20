@@ -60,7 +60,7 @@ crashlytics-build.properties
 # Gradle cache
 .gradle/
 
-# Ignore Unity backups
+# Unity backups
 *.unity~
 *.prefab~
 *.mat~
@@ -91,7 +91,6 @@ crashlytics-build.properties
 *.zip
 
 # Git Large File Storage (LFS) tracking for specific file types
-# Les fichiers volumineux comme les textures, les modèles 3D ou l'audio sont suivis par Git LFS.
 *.psd
 *.tga
 *.fbx
@@ -106,3 +105,7 @@ crashlytics-build.properties
 .DS_Store
 Thumbs.db
 
+# IDE-specific files
+.idea/
+.vscode/
+.vs/
