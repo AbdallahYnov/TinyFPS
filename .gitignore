@@ -28,6 +28,7 @@
 *.cache
 *.log
 *.bak
+*.lock
 
 # Ignore platform-specific files
 *.dmg
@@ -65,6 +66,7 @@ crashlytics-build.properties
 *.prefab~
 *.mat~
 *.asset~
+*.meta~
 
 # Ignore test and temp files
 *.test
@@ -85,27 +87,32 @@ crashlytics-build.properties
 *.psd
 *.tga
 *.fbx
-*.mp3
 *.wav
 *.ogg
 *.zip
-
-# Git Large File Storage (LFS) tracking for specific file types
-*.psd
-*.tga
-*.fbx
-*.wav
-*.ogg
-*.zip
+*.obj
+*.blend
+*.anim
+*.controller
 *.mp4
 *.mov
 *.avi
+*.webm
 
 # Prevent tracking unwanted files
 .DS_Store
 Thumbs.db
+Desktop.ini
 
 # IDE-specific files
 .idea/
 .vscode/
 .vs/
+
+# Test-specific files
+Assets/Tests/
+Assets/**/*.test
+
+# ProBuilder and TextMeshPro
+Assets/ProCore/
+Assets/TextMesh Pro/
