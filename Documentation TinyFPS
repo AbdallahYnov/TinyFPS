@@ -1,0 +1,161 @@
+Documentation Complète du Jeu FPS
+Introduction
+Ce document présente une documentation complète du jeu FPS (First Person Shooter) développé dans le cadre d'un exercice pratique. Le but du jeu est de détruire toutes les tourelles et ennemis présents sur la carte. Une fois cette tâche accomplie, le joueur gagne la partie.
+
+Contrôles du Joueur
+Le joueur peut se déplacer à l'aide des touches suivantes :
+
+Z : Avancer
+S : Reculer
+Q : Aller à gauche
+D : Aller à droite
+Les scripts de déplacement, de gestion de la caméra et de l'orientation du personnage sont intégrés pour permettre une expérience de jeu fluide et immersive.
+
+Structure du Projet
+Le projet est organisé de manière à faciliter la gestion et le développement. Voici les principaux éléments :
+
+Dossiers et Fichiers
+Assets/ : Contient tous les fichiers du projet, y compris les assets importés et les ressources personnalisées.
+Scripts/ : Code source pour les mécaniques du jeu.
+Scenes/ : Scènes Unity, y compris la carte principale.
+Prefabs/ : Objets réutilisables comme les ennemis, les objets récupérables, et les points d'apparition.
+Materials/ : Matériaux pour les objets du jeu.
+Documentation/ : Contient les fichiers liés au Game Design et au Level Design.
+.gitignore : Empêche le suivi des fichiers inutiles (exemple : dossiers Library/, Logs/, Temp/, etc.).
+.gitattributes : Définit les paramètres de gestion des fichiers pour Git (exemple : gestion des fichiers binaires Unity).
+Scripts
+PlayerMovement.cs : Gère le déplacement du joueur.
+CameraController.cs : Gère la caméra et l'orientation du personnage.
+Shooting.cs : Gère les mécaniques de tir du joueur.
+EnemyAI.cs : Gère le comportement des ennemis.
+TurretAI.cs : Gère le comportement des tourelles.
+GameManager.cs : Gère la logique globale du jeu, y compris la condition de victoire.
+Level Design
+Schéma du Level Design vu de haut
+Le niveau a été conçu avec une disposition de murs et de sols permettant au joueur de se déplacer librement tout en étant limité par les contours de la carte. Les ennemis et les tourelles sont placés stratégiquement pour offrir un défi équilibré.
+
+Level Design in game
+La carte est composée de plusieurs zones avec des murs et des obstacles. Les ennemis et les tourelles sont placés de manière à créer des points de tension et de combat. Le joueur doit explorer la carte pour trouver et détruire tous les ennemis et tourelles.
+
+Inputs Actions
+Les actions du joueur sont gérées via les scripts suivants :
+
+PlayerMovement.cs : Utilise les entrées clavier (Z, Q, S, D) pour déplacer le joueur.
+Shooting.cs : Utilise la souris pour viser et tirer.
+Game Design Général
+Documents
+Game Design Document (GDD) : Décrit en détail les mécaniques de jeu, les objectifs, les personnages, et l'univers du jeu.
+Technical Design Document (TDD) : Décrit les aspects techniques du jeu, y compris les scripts, les assets, et les configurations.
+Qualité du Code
+Le code est bien structuré et commenté pour faciliter la maintenance et les futures mises à jour. Les bonnes pratiques de programmation ont été suivies, telles que l'utilisation de noms de variables explicites, la modularité des scripts, et l'optimisation des performances.
+
+Qualité des Mécaniques
+Les mécaniques de jeu ont été soigneusement conçues et testées pour offrir une expérience de jeu agréable et équilibrée. Les ennemis et les tourelles réagissent de manière réaliste aux actions du joueur, et les mécaniques de tir sont précises et réactives.
+
+Installation et Utilisation
+Prérequis
+Unity version 6.0.0 ou supérieure.
+Git installé sur votre machine.
+Unity Hub pour l'importation du module FPS Microgame.
+Étapes
+Clonez le projet :
+
+git clone <lien-du-repo>
+Ouvrez Unity Hub et ajoutez le projet.
+Lancez la scène principale.
+Jouez et testez !
+Évaluation
+Ce projet est évalué selon les critères suivants :
+
+Gestion du Git : Bon usage des branches, commit messages clairs.
+Organisation du projet : Structure des fichiers respectée.
+Level Design : Création d'un environnement engageant.
+Inputs Actions : Système d'entrée optimisé.
+Game Design : Documentation claire et complète.
+Qualité du code : Code propre, commenté et optimisé.
+Mécaniques de jeu : Originalité et fonctionnement des fonctionnalités.
+Auteurs
+[Nom de l'auteur : Abdallah]
+[Nom de l'auteur : Hugo]
+[Nom de l'auteur : Mathias]
+Ressources
+Unity Asset Store
+Fab
+Documentation officielle Unity
+Détails Techniques
+Configuration du Projet
+Unity Version : 2021.3.1f1
+Scripting Runtime Version : .NET 4.x
+API Compatibility Level : .NET Standard 2.0
+Assets Utilisés
+FPS Microgame : Module de base pour le jeu FPS.
+Post Processing Stack : Pour les effets visuels avancés.
+ProBuilder : Pour la création de niveaux et de modèles 3D.
+NavMesh : Pour la navigation des ennemis.
+
+Level Design
+Schéma du Level Design vu de haut
+Le schéma du level design vu de haut est disponible dans le dossier Documentation/. Il montre la disposition des murs, des sols, des obstacles, et des points d'intérêt tels que les ennemis et les tourelles.
+
+Level Design in game
+La carte est composée de plusieurs zones avec des murs et des obstacles. Les ennemis et les tourelles sont placés de manière à créer des points de tension et de combat. Le joueur doit explorer la carte pour trouver et détruire tous les ennemis et tourelles.
+
+Points d'Intérêt
+Zone de Départ : Point de départ du joueur.
+Zone de Combat 1 : Première zone avec des ennemis et des tourelles.
+Zone de Combat 2 : Deuxième zone avec des ennemis plus difficiles.
+Zone de Collectibles : Zone avec des objets récupérables pour progresser.
+Zone Finale : Dernière zone avec le boss final.
+Inputs Actions
+Les actions du joueur sont gérées via les scripts suivants :
+
+PlayerMovement.cs : Utilise les entrées clavier (Z, Q, S, D) pour déplacer le joueur.
+Shooting.cs : Utilise la souris pour viser et tirer.
+Game Design Général
+Documents
+Game Design Document (GDD) : Décrit en détail les mécaniques de jeu, les objectifs, les personnages, et l'univers du jeu.
+Technical Design Document (TDD) : Décrit les aspects techniques du jeu, y compris les scripts, les assets, et les configurations.
+Qualité du Code
+Le code est bien structuré et commenté pour faciliter la maintenance et les futures mises à jour. Les bonnes pratiques de programmation ont été suivies, telles que l'utilisation de noms de variables explicites, la modularité des scripts, et l'optimisation des performances.
+
+Qualité des Mécaniques
+Les mécaniques de jeu ont été soigneusement conçues et testées pour offrir une expérience de jeu agréable et équilibrée. Les ennemis et les tourelles réagissent de manière réaliste aux actions du joueur, et les mécaniques de tir sont précises et réactives.
+
+Installation et Utilisation
+Prérequis
+Unity version 6.0.0 ou supérieure.
+Git installé sur votre machine.
+Unity Hub pour l'importation du module FPS Microgame.
+
+Étapes
+Clonez le projet : 
+git clone <lien-du-repo>
+
+Ouvrez Unity Hub et ajoutez le projet.
+Lancez la scène principale.
+Jouez et testez !
+Évaluation
+Ce projet est évalué selon les critères suivants :
+
+Gestion du Git : Bon usage des branches, commit messages clairs.
+Organisation du projet : Structure des fichiers respectée.
+Level Design : Création d'un environnement engageant.
+Inputs Actions : Système d'entrée optimisé.
+Game Design : Documentation claire et complète.
+Qualité du code : Code propre, commenté et optimisé.
+Mécaniques de jeu : Originalité et fonctionnement des fonctionnalités.
+Auteurs
+[Nom de l'auteur : Abdallah]
+[Nom de l'auteur : Hugo]
+[Nom de l'auteur : Mathias]
+Ressources
+Unity Asset Store
+Fab
+Documentation officielle Unity
+Conclusion
+Ce projet de jeu FPS a été réalisé avec soin, en mettant l'accent sur la qualité du code, la gestion du projet, et le design de niveau. Le joueur peut se déplacer librement dans une carte bien conçue, tout en affrontant des ennemis et des tourelles pour atteindre la victoire.
+
+Lien Git
+Le projet est disponible sur GitHub à l'adresse suivante : Lien vers le dépôt GitHub
+
+Note : Remplacez <https://github.com/AbdallahYnov/TinyFPS> par le lien réel vers votre dépôt GitHub et ajoutez les noms des auteurs.
